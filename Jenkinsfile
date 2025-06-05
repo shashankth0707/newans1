@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/harishbitcse82/MyMavenWebApp.git'
+                git 'https://github.com/shashankth0707/newans1.git'
             }
         }
         stage('Build') {
